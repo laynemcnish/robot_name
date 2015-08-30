@@ -1,5 +1,5 @@
 class Robot
-  attr_accessor :name
+  attr_reader :name
 
   def initialize
     @name = create_random_name
