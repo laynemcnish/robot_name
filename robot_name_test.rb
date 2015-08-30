@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 gem 'minitest', '>= 5.0.0'
 require 'minitest/autorun'
-require_relative 'robot'
+require_relative 'robot_name'
 
 class RobotTest < Minitest::Test
   COMMAND_QUERY = <<-MSG
